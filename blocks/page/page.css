@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.page {
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+  min-width: 1280px;
+  max-width: 1600px;
+  background: #2a2c2f;
+}
