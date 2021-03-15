@@ -1,0 +1,22 @@
+.cover__background {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: middle;
+  background-image: linear-gradient(
+      rgba(42, 44, 47, 0.3),
+      rgba(42, 44, 47, 0.3)
+    ),
+    url("../../../images/cover-background.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover__background_inner {
+  display: block;
+  height: 0;
+  padding-top: 62.5%;
+}
