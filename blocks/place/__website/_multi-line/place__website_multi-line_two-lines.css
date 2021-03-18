@@ -1,3 +1,21 @@
 .place__website_multi-line_two-lines {
   padding-top: 106px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .place__website_multi-line_two-lines {
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .place__website_multi-line_two-lines {
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__website_multi-line_two-lines {
+    padding-top: 0;
+  }
+}

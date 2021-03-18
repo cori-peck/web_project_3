@@ -1,3 +1,34 @@
 .place__image {
   object-fit: cover;
+  width: 46.7%;
+  border: 1px solid green;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .place__image {
+    width: 100%;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .place__image {
+    width: 100%;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__image {
+    width: 47.2%;
+    object-fit: contain;
+    height: fit-content;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place__image {
+    width: 47.4%;
+    height: fit-content;
+  }
 }
