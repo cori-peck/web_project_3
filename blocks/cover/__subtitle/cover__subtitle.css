@@ -5,7 +5,6 @@
   margin: auto;
   text-align: center;
   padding-top: 32px;
-  width: 48.8%;
   color: #ffffff;
 }
 
@@ -13,7 +12,6 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    width: 90%;
     padding-top: 16px;
   }
 }
@@ -22,13 +20,18 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    width: 90%;
     padding-top: 16px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover__subtitle {
-    width: 48.8;
+    width: 48.8%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover__subtitle {
+    width: 48.8%;
   }
 }

@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
-
 .page {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Verdana, sans-serif;
   overflow-x: hidden;
   background: #2a2c2f;
   color: #fff;

@@ -5,3 +5,7 @@
   color: #ffffff;
   text-decoration: none;
 }
+
+.footer__column-navlink:hover {
+  opacity: 0.8;
+}
