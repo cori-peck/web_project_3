@@ -5,6 +5,8 @@
   margin: 0;
   padding-top: 8px;
   align-self: flex-start;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {

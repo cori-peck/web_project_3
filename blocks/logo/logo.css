@@ -5,7 +5,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .logo {
-    width: 54%;
+    width: 48.75%;
   }
 }
 
@@ -18,11 +18,13 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .logo {
     width: 26.4%;
+    height: 84%;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .logo {
-    width: 26.4%;
+    width: 20.5%;
+    height: 84%;
   }
 }
