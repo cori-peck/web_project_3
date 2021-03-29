@@ -6,7 +6,7 @@
 }
 
 .place__paragraph + .place__paragraph:not(:first-child) {
-  padding-top: 27px;
+  padding-top: 29px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {

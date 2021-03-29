@@ -1,7 +1,10 @@
 .place__website {
-  padding-top: 30px;
-  padding-bottom: 48px;
+  padding-top: 29px;
+  padding-bottom: 46px;
   width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {

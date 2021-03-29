@@ -6,14 +6,9 @@
   font-size: 0;
   line-height: 0;
   vertical-align: middle;
-  background-image: linear-gradient(
-      rgba(42, 44, 47, 0.3),
-      rgba(42, 44, 47, 0.3)
-    ),
+  background: center / cover no-repeat
+      linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)),
     url("../../../images/cover-background.png");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
   cursor: pointer;
   text-decoration: none;
 }
@@ -24,4 +19,5 @@
       rgba(42, 44, 47, 0.8)
     ),
     url("../../../images/cover-background.png");
+  transition: 0.3s;
 }
