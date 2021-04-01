@@ -21,3 +21,10 @@
     url("../../../images/cover-background.png");
   transition: 0.3s;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1183px) {
+  .cover__background {
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}

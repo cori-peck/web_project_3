@@ -5,7 +5,6 @@
   grid-template-columns: repeat(auto-fill, minmax(284px, 4fr));
   grid-gap: 16px;
   padding-top: 92px;
-  overflow: hidden;
   list-style-type: none;
   padding-left: 0;
 }
